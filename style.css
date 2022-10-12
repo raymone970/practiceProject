@@ -1,0 +1,506 @@
+@font-face {
+    font-family: satoshi;
+    src: url('Practice/satoshi.css');
+}
+
+body {
+    margin: 0;
+}
+
+html {
+    font-family: satoshi;
+    text-align: center;
+    padding:0; 
+    margin:0;
+}
+
+h1 {
+    font-size: 64px;
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 20px;
+    padding:0; 
+    margin:0;
+}
+
+h2 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: normal;
+    padding:0; 
+    margin:0;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+    padding:0; 
+    margin:0;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+h4.name {
+    color: #fff;
+}
+
+p {
+    font-size: 20px;
+    color: #767676;
+    text-align: left;
+    margin: 0px;
+}
+
+p#center {
+    text-align: center;
+    max-width: 640px;
+    align-self: center;
+}
+
+.landing {
+    max-width: 100vw;
+    height: 860px;
+    position: relative;
+    display: flex;
+    background-image: url("Landing.png");
+    background-size: cover;
+    justify-content: center;
+    padding:0; 
+    margin:0;
+}
+
+.landingText {
+    padding-top: 322px;
+    margin-bottom: 40px;
+}
+
+#landingButton {
+    width: 133px;
+    height: 59px;
+    align-items: center;
+    gap: 10px;
+    margin: 40px 318px 0;
+    padding: 16px;
+    background-color: transparent;
+    color: #fff;
+    border: solid 2px #fff;
+}
+
+div#section {
+    max-width: 100vw;
+    padding-bottom: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div#flex {
+    max-width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+div.subTitle {
+    max-width: 1200px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+}
+
+div.textFlex {
+    margin-left: 40px;
+    padding-right: 160px;
+    width: 440px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: left;
+}
+
+div#aboutImage {
+    width: 600px;
+    height: 400px;
+    background-image: url("aboutImage.png");
+    background-size: cover;
+}
+
+div.container{
+    max-width: 1200px;
+}
+
+div#memLearn {
+    background-color: #f1f1f5;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    align-items: center;
+}
+
+#centerMain {
+    max-width: 1200px;
+    align-self: center;
+    align-items: center;
+    display: flex;
+}
+
+div.flexBox {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    text-align: left;
+}
+
+div.box {
+    height: 360px;
+    width: 360px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    gap: 16px;
+    margin: 0px;
+    z-index: 0;
+}
+
+div#k {
+    height: 360px;
+    width: 360px;
+    background-image: url("khelani.png");
+    background-size: cover;
+
+}
+
+div#a {
+    height: 360px;
+    width: 360px;
+    background-image: url("angel.png");
+    background-size: cover;
+
+}
+
+div#d {
+    height: 360px;
+    width: 360px;
+    background-image: url("drew.png");
+    background-size: cover;
+
+}
+
+.contentAlign {
+    position: absolute;
+    display: flex;
+    flex-grow: 0;
+    align-items: flex-start;
+    flex-direction: column;
+    align-self: left;
+    bottom: 0;
+    left: 0;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    z-index: 5;
+    gap: 8px;
+
+}
+
+p.title {
+    color: #ddd;
+    font-weight: normal;
+}
+
+p#skills {
+    color: #ddd;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+button#link {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    display: flex;
+    flex-grow: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+
+div#prj1 {
+    background-image: url("prj1.png");
+}
+
+div#prj2 {
+    background-image: url("prj2.png");
+}
+
+div#prj3 {
+    background-image: url("prj3.png");
+}
+
+div#prj4 {
+    background-image: url("prj4.png");
+}
+
+div#prj5 {
+    background-image: url("prj5.png");
+}
+
+div#prj6 {
+    background-image: url("prj6.png");
+}
+
+div.partners {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+}
+
+div.partnerLogo {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    margin-top: 40px;
+    max-width: 1200px;
+}
+
+h5#partner {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+}
+
+div.logos {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#logo1 {
+    background-image: url("Instagram.png");
+    width: 140px;
+    height: 140px;
+    border: 2px solid #ddd;
+    border-radius: 400px;
+}
+
+div#logo2 {
+    background-image: url("apple.png");
+    width: 140px;
+    height: 140px;
+    border: 2px solid #ddd;
+    border-radius: 400px;
+}
+
+div#logo3 {
+    background-image: url("microsoft.png");
+    width: 140px;
+    height: 140px;
+    border: 2px solid #ddd;
+    border-radius: 400px;
+}
+
+div#logo4 {
+    background-image: url("adobe.png");
+    width: 140px;
+    height: 140px;
+    border: 2px solid #ddd;
+    border-radius: 400px;
+}
+
+div#logo5 {
+    background-image: url("facebook.png");
+    width: 140px;
+    height: 140px;
+    border: 2px solid #ddd;
+    border-radius: 400px;
+}
+
+div#logo6 {
+    background-image: url("google.png");
+    width: 140px;
+    height: 140px;
+    border: 2px solid #ddd;
+    border-radius: 400px;
+}
+
+div#logo7 {
+    background-image: url("discord.png");
+    width: 140px;
+    height: 140px;
+    border: 2px solid #ddd;
+    border-radius: 400px;
+}
+
+div.partLearn {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 0px;
+    grid-auto-rows: repeat(16, 1fr);
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+div#photo1 {
+    width: 700px;
+    height: 420px;
+    background-image: url("Rectangle 26.png");
+    background-size: cover;
+    grid-column: 6 / end;
+    grid-row: 1 / 5;
+}
+
+div#photo2 {
+    width: 400px;
+    height: 540px;
+    background-image: url("Rectangle 27.png");
+    background-size: cover;
+    grid-column: 1 / 4;
+    grid-row: 4 / 10;
+}
+
+div.textBox {
+    width: 400px;
+    text-align: left;
+    grid-row: 7 / 10;
+    grid-column: 6 / 10;
+}
+
+h4#partners {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p#partners {
+    font-size: 16px;
+    font-weight: normal;
+    color: #767676;
+}
+
+div#photo3 {
+    width: 400px;
+    height: 400px;
+    background-image: url("Rectangle 28.png");
+    background-size: cover;
+    grid-row: 12 / 16;
+    grid-column: 6 / 10;
+    margin-top: 100px;
+}
+
+div.story {
+    background-color: #191919;
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+h3#story {
+    color: #fff;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+div.carouselCen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+div.carousel {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 0px;
+    grid-auto-rows: repeat(16, 1fr);
+}
+
+div.boxBox {
+    display: block;
+    width: 400px;
+    height: 640px;
+    z-index: 5;
+}
+
+div.flexx {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    text-align: left;
+    grid-column-start: 1;
+}
+
+div#storyy {
+    background-image: url("Rectangle 30.png");
+    background-size: cover;
+    position: relative;
+}
+
+div#mission {
+    background-image: url("Rectangle 31.png");
+    background-size: cover;
+    position: relative;
+}
+
+div#value {
+    background-image: url("Rectangle 32.png");
+    background-size: cover;
+    position: relative;
+}
+
+div#phil {
+    background-image: url("Rectangle 33.png");
+    background-size: cover;
+    position: relative;
+}
+
+footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h2#footer {
+    font-size: 24px;
+    color: #000;
+}
